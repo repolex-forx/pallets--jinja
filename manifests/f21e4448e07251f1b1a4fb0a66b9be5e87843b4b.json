@@ -1,0 +1,78 @@
+{
+  "commit": "f21e4448e07251f1b1a4fb0a66b9be5e87843b4b",
+  "files": {
+    "repolex": {
+      "path": "aggregate/repolex/f21e4448e07251f1b1a4fb0a66b9be5e87843b4b.nq.gz",
+      "size_bytes": 3418168
+    },
+    "dep": {
+      "path": "dep/f21e4448e07251f1b1a4fb0a66b9be5e87843b4b.nq.gz",
+      "size_bytes": 1088
+    }
+  },
+  "dependencies": [
+    {
+      "packageName": "jinja2",
+      "packageVersion": "3.1.6",
+      "githubOrg": "pallets",
+      "githubRepo": "jinja",
+      "githubCommit": "15206881c006c79667fe5154fe80c01c65410679"
+    },
+    {
+      "packageName": "django",
+      "packageVersion": "6.0.3",
+      "githubOrg": "django",
+      "githubRepo": "django",
+      "githubCommit": "a0d3bdb5b0a22cdbb4d3f7e5eabd7fe0f7311f68"
+    },
+    {
+      "packageName": "coverage",
+      "packageVersion": "7.9.2",
+      "githubOrg": "nedbat",
+      "githubRepo": "coveragepy",
+      "githubCommit": "6e774923cf042751feb78036fcd46909d263be06"
+    },
+    {
+      "packageName": "sphinx",
+      "packageVersion": "9.1.0rc2",
+      "githubOrg": "sphinx-doc",
+      "githubRepo": "sphinx",
+      "githubCommit": "8ab960098a8e12b8893bd3ceafc394759118346b"
+    },
+    {
+      "packageName": "sets",
+      "packageVersion": "0.3.2",
+      "githubOrg": "danijar",
+      "githubRepo": "sets",
+      "githubCommit": "HEAD"
+    },
+    {
+      "packageName": "compiler",
+      "packageVersion": "0.2.0",
+      "githubOrg": "xiaojieluo",
+      "githubRepo": "vlde",
+      "githubCommit": "HEAD"
+    },
+    {
+      "packageName": "thread",
+      "packageVersion": "2.0.6",
+      "githubOrg": "python-thread",
+      "githubRepo": "thread",
+      "githubCommit": "669e025f3f72ab62b7abba82f8d394a28e1f0611"
+    },
+    {
+      "packageName": "mako",
+      "packageVersion": "1.3.9",
+      "githubOrg": "sqlalchemy",
+      "githubRepo": "mako",
+      "githubCommit": "HEAD"
+    },
+    {
+      "packageName": "werkzeug",
+      "packageVersion": "3.1.6",
+      "githubOrg": "pallets",
+      "githubRepo": "werkzeug",
+      "githubCommit": "04da1b5221b7a7b57e82246e4b5741d37a6b2e56"
+    }
+  ]
+}
