@@ -8158,6 +8158,50 @@
         "blob/ab967b9768538b2dccbfae057f4d663321759459.nq.gz",
         "blob/93cde8343a8888cf135f195fcaf8a84337667cee.nq.gz",
         "blob/d7ed8449bbd3830b6f9cd53409041521cc832209.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/30b39cd4d924dfed059a73960a45181752e0b5de.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/30b39cd4d924dfed059a73960a45181752e0b5de.nq.gz",
+      "repolex": "aggregate/repolex/30b39cd4d924dfed059a73960a45181752e0b5de.nq.gz",
+      "dep": "dep/30b39cd4d924dfed059a73960a45181752e0b5de.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "82.0.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "5a13876673a41e3cd21d4d6e587f53d0fb4fd8e5",
+          "githubTag": "v82.0.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/__init__.py"
+        },
+        {
+          "packageName": "markupsafe",
+          "ecosystem": "PYPI",
+          "version": "3.0.3",
+          "githubOrg": "pallets",
+          "githubRepo": "markupsafe",
+          "githubCommit": "297fc8e356e6836a62087949245d09a28e9f1b13",
+          "githubTag": "3.0.3",
+          "githubUrl": "https://github.com/pallets/markupsafe",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/markupsafe/__init__.py"
+        },
+        {
+          "packageName": "pygments",
+          "ecosystem": "PYPI",
+          "version": "2.20.0",
+          "githubOrg": "pygments",
+          "githubRepo": "pygments",
+          "githubCommit": "708197d82827ba2d5ca78bcbb653c7102ce86dcd",
+          "githubTag": "2.20.0",
+          "githubUrl": "https://github.com/pygments/pygments",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/pygments/__init__.py"
+        }
       ]
     },
     {
