@@ -3659,6 +3659,50 @@
         "blob/a95193680f0f5a59a3d03e0e13328801b960a982.nq.gz",
         "blob/93cde8343a8888cf135f195fcaf8a84337667cee.nq.gz",
         "blob/d7ed8449bbd3830b6f9cd53409041521cc832209.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/bbdafe33ce9f47e3cbfb9415619e354349f11243.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/bbdafe33ce9f47e3cbfb9415619e354349f11243.nq.gz",
+      "repolex": "aggregate/repolex/bbdafe33ce9f47e3cbfb9415619e354349f11243.nq.gz",
+      "dep": "dep/bbdafe33ce9f47e3cbfb9415619e354349f11243.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "markupsafe",
+          "ecosystem": "PYPI",
+          "version": "3.0.3",
+          "githubOrg": "pallets",
+          "githubRepo": "markupsafe",
+          "githubCommit": "297fc8e356e6836a62087949245d09a28e9f1b13",
+          "githubTag": "3.0.3",
+          "githubUrl": "https://github.com/pallets/markupsafe",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/markupsafe/__init__.py"
+        },
+        {
+          "packageName": "jinja2",
+          "ecosystem": "PYPI",
+          "version": "3.1.6",
+          "githubOrg": "pallets",
+          "githubRepo": "jinja",
+          "githubCommit": "15206881c006c79667fe5154fe80c01c65410679",
+          "githubTag": "3.1.6",
+          "githubUrl": "https://github.com/pallets/jinja",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/jinja2/environment.py"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "82.0.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "5a13876673a41e3cd21d4d6e587f53d0fb4fd8e5",
+          "githubTag": "v82.0.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/__init__.py"
+        }
       ]
     }
   ],
