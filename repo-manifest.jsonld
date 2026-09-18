@@ -351,8 +351,9 @@
     {
       "@id": "https://repolex.ai/r/pallets/jinja/commit/15206881c006c79667fe5154fe80c01c65410679",
       "git:hexsha": "15206881c006c79667fe5154fe80c01c65410679",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "3.1.6"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "3.1.6",
+      "repolex:parsedAt": "2026-09-18T05:07:13.669811+00:00"
     }
   ]
 }
