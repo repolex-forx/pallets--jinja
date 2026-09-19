@@ -54,6 +54,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   │   │   └── chunk-001.nq.gz
 │   │   ├── 3b3e16fc18fca4de0bd5fa714374767e8d124c27
 │   │   │   └── chunk-001.nq.gz
+│   │   ├── 3e4ebc80f89247fa57678478d2f3d8527e3307ab
+│   │   │   └── chunk-001.nq.gz
 │   │   ├── 417f822196f66155e8c121e5229cc12a6b02ce14
 │   │   │   └── chunk-001.nq.gz
 │   │   ├── 56d01078055759936f9ae411c42471a3664dff9a.nq.gz
@@ -112,6 +114,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   │   ├── 30c2d660dc1e6a80e8485ac7a410336148e24389.nq.gz
 │   │   ├── 3a0f01df8450bd6ffa0a31c9bbc3337a8f06944d.nq.gz
 │   │   ├── 3b3e16fc18fca4de0bd5fa714374767e8d124c27.nq.gz
+│   │   ├── 3e4ebc80f89247fa57678478d2f3d8527e3307ab.nq.gz
 │   │   ├── 417f822196f66155e8c121e5229cc12a6b02ce14.nq.gz
 │   │   ├── 56d01078055759936f9ae411c42471a3664dff9a.nq.gz
 │   │   ├── 5962edeb271d93687eb93f32d53ffe53f86871e0.nq.gz
@@ -159,6 +162,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │       ├── 3a0f01df8450bd6ffa0a31c9bbc3337a8f06944d
 │       │   └── chunk-001.nq.gz
 │       ├── 3b3e16fc18fca4de0bd5fa714374767e8d124c27
+│       │   └── chunk-001.nq.gz
+│       ├── 3e4ebc80f89247fa57678478d2f3d8527e3307ab
 │       │   └── chunk-001.nq.gz
 │       ├── 417f822196f66155e8c121e5229cc12a6b02ce14
 │       │   └── chunk-001.nq.gz
@@ -281,12 +286,9 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
     ├── 0cade7a3503d10c563f90e084e2b701c4fb1b8bc.nq.gz
     ├── 0ce916df497fd2605dd3ceef81839c07a2c19e02.nq.gz
     ├── 0d5a68fef62166b14feb892020abba9dc626be6d.nq.gz
-    ├── 0d608a36e7247935e731df425d6625f73304e5a0.nq.gz
-    ├── 0d6db7c5edce27d278652270d9af54904bf151a0.nq.gz
-    ├── 0dae2173f22625a42d5443638377c90bb48d5717.nq.gz
-    └── 0db4653e9f8208136b819ef14548b97b7557c42d.nq.gz
+    └── 0d608a36e7247935e731df425d6625f73304e5a0.nq.gz
 
-50 directories, 200 files
+52 directories, 200 files
 ```
 
 | Directory | What it contains |
