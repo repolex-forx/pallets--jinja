@@ -1,0 +1,32 @@
+[2026-09-19T19:06:47Z] === ENRICH ITERATION 1 START | repo=pallets/jinja sha=966e1a40 ===
+[2026-09-19T19:06:47Z] [iter=1] PHASE START: enrich repo=pallets/jinja sha=966e1a40 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/966e1a40-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/966e1a409f02de57b75a0463fc953d54dad2a205.nq.gz
+[2026-09-19T19:06:47Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-09-19T19:06:57Z] [iter=1] AST store loaded triples=891661 load_secs=9 mem_mb=775 MB
+[2026-09-19T19:06:57Z] [iter=1] Step 2: Finding LSP targets mem_mb=775 MB
+[2026-09-19T19:06:58Z] [iter=1] LSP targets found call_sites=4823 imports=85 extends=11 implements=0 secs=1
+[2026-09-19T19:06:59Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=775 MB
+[2026-09-19T19:07:02Z] [iter=1] Position index built positions=44137 nodes_with_types=57321 secs=3 mem_mb=775 MB
+[2026-09-19T19:07:02Z] [iter=1] Step 3: Starting LSP resolution mem_mb=775 MB already_completed_types=[] already_completed_files=0
+[2026-09-19T19:07:02Z] [iter=1] Resolving target type target_type=call_site count=4823
+[2026-09-19T19:07:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.0 files_done=1 resolved=93 errors=128 current=jinja2/parser.py
+[2026-09-19T19:09:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.8 files_done=2 resolved=189 errors=397 current=jinja2/runtime.py
+[2026-09-19T19:11:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.2 files_done=5 resolved=468 errors=853 current=ext/django2jinja/django2jinja.py
+[2026-09-19T19:13:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.6 files_done=6 resolved=499 errors=1123 current=jinja2/ext.py
+[2026-09-19T19:14:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.7 files_done=9 resolved=648 errors=1320 current=jinja2/nodes.py
+[2026-09-19T19:15:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.7 files_done=11 resolved=795 errors=1501 current=tests/test_core_tags.py
+[2026-09-19T19:16:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.4 files_done=13 resolved=922 errors=1619 current=docs/jinjaext.py
+[2026-09-19T19:16:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.9 files_done=15 resolved=980 errors=1709 current=docs/cache_extension.py
+[2026-09-19T19:17:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.7 files_done=19 resolved=1034 errors=1853 current=tests/test_loader.py
+[2026-09-19T19:18:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.3 files_done=21 resolved=1086 errors=1967 current=tests/test_inheritance.py
+[2026-09-19T19:18:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.8 files_done=26 resolved=1222 errors=2059 current=jinja2/debug.py
+[2026-09-19T19:19:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.3 files_done=29 resolved=1415 errors=2148 current=examples/basic/test_filter_and_linestatements.py
+[2026-09-19T19:19:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.9 files_done=38 resolved=1522 errors=2258 current=jinja2/exceptions.py
+[2026-09-19T19:20:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.4 files_done=56 resolved=1605 errors=2354 current=setup.py
+[2026-09-19T19:20:13Z] [iter=1] Target type resolved target_type=call_site resolved=1606 errors=2354 secs=791 mem_mb=775 MB
+[2026-09-19T19:20:13Z] [iter=1] Resolving target type target_type=import_statement count=85
+[2026-09-19T19:20:14Z] [iter=1] Target type resolved target_type=import_statement resolved=53 errors=0 secs=1 mem_mb=775 MB
+[2026-09-19T19:20:14Z] [iter=1] Resolving target type target_type=extends_clause count=11
+[2026-09-19T19:20:15Z] [iter=1] Target type resolved target_type=extends_clause resolved=11 errors=0 secs=1 mem_mb=775 MB
+[2026-09-19T19:20:19Z] [iter=1] Step 5: Writing final enrichment file triples=41199
+[2026-09-19T19:20:20Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/966e1a409f02de57b75a0463fc953d54dad2a205.nq.gz size_kb=963
+[2026-09-19T19:20:20Z] [iter=1] PHASE END: enrich elapsed_s=813 elapsed_min=13.5 total_triples=41199
