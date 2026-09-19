@@ -1,0 +1,42 @@
+[2026-09-19T12:24:35Z] === ENRICH ITERATION 1 START | repo=pallets/jinja sha=d78a1b07 ===
+[2026-09-19T12:24:35Z] [iter=1] PHASE START: enrich repo=pallets/jinja sha=d78a1b07 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/d78a1b07-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/d78a1b079cd985eea7d636f79124ab4fc44cb538.nq.gz
+[2026-09-19T12:24:35Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-09-19T12:24:43Z] [iter=1] AST store loaded triples=1135097 load_secs=8 mem_mb=865 MB
+[2026-09-19T12:24:43Z] [iter=1] Step 2: Finding LSP targets mem_mb=865 MB
+[2026-09-19T12:24:45Z] [iter=1] LSP targets found call_sites=5720 imports=156 extends=64 implements=0 secs=2
+[2026-09-19T12:24:47Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=865 MB
+[2026-09-19T12:24:52Z] [iter=1] Position index built positions=51878 nodes_with_types=67387 secs=5 mem_mb=865 MB
+[2026-09-19T12:24:52Z] [iter=1] Step 3: Starting LSP resolution mem_mb=865 MB already_completed_types=[] already_completed_files=0
+[2026-09-19T12:24:52Z] [iter=1] Resolving target type target_type=call_site count=5720
+[2026-09-19T12:27:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.5 files_done=1 resolved=31 errors=270 current=ext/inlinegettext.py
+[2026-09-19T12:31:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.4 files_done=3 resolved=204 errors=735 current=jinja2/nodes.py
+[2026-09-19T12:31:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.0 files_done=4 resolved=291 errors=799 current=docs/jinjaext.py
+[2026-09-19T12:32:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.0 files_done=6 resolved=421 errors=914 current=jinja2/_compat.py
+[2026-09-19T12:33:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.9 files_done=8 resolved=450 errors=1018 current=jinja2/defaults.py
+[2026-09-19T12:35:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.5 files_done=11 resolved=596 errors=1206 current=tests/test_lexnparse.py
+[2026-09-19T12:36:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.5 files_done=12 resolved=664 errors=1321 current=jinja2/loaders.py
+[2026-09-19T12:37:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.5 files_done=14 resolved=713 errors=1442 current=jinja2/lexer.py
+[2026-09-19T12:38:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.6 files_done=15 resolved=806 errors=1571 current=tests/test_core_tags.py
+[2026-09-19T12:39:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.5 files_done=17 resolved=859 errors=1683 current=jinja2/bccache.py
+[2026-09-19T12:39:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.1 files_done=19 resolved=912 errors=1755 current=jinja2/runtime.py
+[2026-09-19T12:40:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.6 files_done=20 resolved=989 errors=1815 current=tests/test_idtracking.py
+[2026-09-19T12:41:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.5 files_done=21 resolved=996 errors=1921 current=jinja2/tests.py
+[2026-09-19T12:44:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.5 files_done=24 resolved=1142 errors=2223 current=tests/test_utils.py
+[2026-09-19T12:44:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.1 files_done=26 resolved=1212 errors=2285 current=examples/profile.py
+[2026-09-19T12:45:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.7 files_done=30 resolved=1299 errors=2354 current=tests/test_ext.py
+[2026-09-19T12:46:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.8 files_done=31 resolved=1334 errors=2477 current=jinja2/utils.py
+[2026-09-19T12:46:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.3 files_done=33 resolved=1446 errors=2536 current=tests/test_asyncfilters.py
+[2026-09-19T12:47:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.8 files_done=34 resolved=1451 errors=2608 current=scripts/jinja2-debug.py
+[2026-09-19T12:47:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.4 files_done=37 resolved=1505 errors=2670 current=jinja2/ext.py
+[2026-09-19T12:48:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.9 files_done=38 resolved=1568 errors=2724 current=docs/conf.py
+[2026-09-19T12:49:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.7 files_done=44 resolved=1638 errors=2824 current=jinja2/_stringdefs.py
+[2026-09-19T12:49:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.2 files_done=51 resolved=1705 errors=2885 current=jinja2/meta.py
+[2026-09-19T12:50:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.7 files_done=59 resolved=1744 errors=2948 current=jinja2/__init__.py
+[2026-09-19T12:50:29Z] [iter=1] Target type resolved target_type=call_site resolved=1746 errors=2965 secs=1537 mem_mb=865 MB
+[2026-09-19T12:50:29Z] [iter=1] Resolving target type target_type=import_statement count=156
+[2026-09-19T12:50:31Z] [iter=1] Target type resolved target_type=import_statement resolved=114 errors=0 secs=2 mem_mb=865 MB
+[2026-09-19T12:50:31Z] [iter=1] Resolving target type target_type=extends_clause count=64
+[2026-09-19T12:50:33Z] [iter=1] Target type resolved target_type=extends_clause resolved=64 errors=0 secs=2 mem_mb=865 MB
+[2026-09-19T12:50:38Z] [iter=1] Step 5: Writing final enrichment file triples=48636
+[2026-09-19T12:50:39Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/d78a1b079cd985eea7d636f79124ab4fc44cb538.nq.gz size_kb=1185
+[2026-09-19T12:50:39Z] [iter=1] PHASE END: enrich elapsed_s=1564 elapsed_min=26.1 total_triples=48636
