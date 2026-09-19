@@ -1,0 +1,7 @@
+[2026-09-19T11:23:41Z] === AST ITERATION 1 START | repo=pallets/jinja sha=70c2d797 ===
+[2026-09-19T11:23:41Z] [iter=1] PHASE START: ast repo=pallets/jinja sha=70c2d797
+[2026-09-19T11:23:41Z] [iter=1] Building AST aggregate chunks
+[2026-09-19T11:25:40Z] [iter=1] AST chunks built count=1 triples=1125406
+[2026-09-19T11:25:40Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/70c2d7976bcd277d26c8d901e9d72db7a1796844/.complete
+[2026-09-19T11:25:40Z] [iter=1] PHASE END: ast elapsed_s=119 elapsed_min=2.0
+[2026-09-19T11:25:40Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
