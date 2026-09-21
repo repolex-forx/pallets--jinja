@@ -50309,7 +50309,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/pygments/__init__.py"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/d9599c8904bc9dfde7a782d3f69657ebb0839366/chunk-001.nq.gz",
+      "dep": "dep/d9599c8904bc9dfde7a782d3f69657ebb0839366.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
