@@ -51804,6 +51804,33 @@
       ],
       "ast": [
         "aggregate/ast/7c3b7ca95cb17589dd64fddc957035336180b90d/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/7c3b7ca95cb17589dd64fddc957035336180b90d.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "markupsafe",
+          "ecosystem": "PYPI",
+          "version": "3.0.3",
+          "githubOrg": "pallets",
+          "githubRepo": "markupsafe",
+          "githubCommit": "297fc8e356e6836a62087949245d09a28e9f1b13",
+          "githubTag": "3.0.3",
+          "githubUrl": "https://github.com/pallets/markupsafe",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/markupsafe/__init__.py"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.0.0",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "72e919a8b10aaafc041205d4e3ae0e6a2e1e5f87",
+          "githubTag": "v84.0.0",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/setuptools/__init__.py"
+        }
       ]
     }
   ],
