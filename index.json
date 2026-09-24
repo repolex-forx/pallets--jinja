@@ -3,6 +3,11 @@
   "repo": "jinja",
   "versions": [
     {
+      "commit": "7c3b7ca95cb17589dd64fddc957035336180b90d",
+      "tag": "2.10.x",
+      "parsed_at": "2026-09-24T08:39:51.590856+00:00"
+    },
+    {
       "commit": "d9599c8904bc9dfde7a782d3f69657ebb0839366",
       "tag": "2.3",
       "parsed_at": "2026-09-21T05:26:37.189231+00:00"
